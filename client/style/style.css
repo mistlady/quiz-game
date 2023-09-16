@@ -112,7 +112,7 @@ background-color: #44b927;
   color: rgb(125, 125, 247);
 }
 
-.start:hover {
+#start:hover {
   background-color: #faa7ae;
   color: #fff;
 }
@@ -173,6 +173,10 @@ background-color: #44b927;
               cursor: pointer;
               border: 2px solid #fff;
               color: rgb(125, 125, 247);
+
+              & > a {
+                text-decoration: none;
+              }
           }
           & > button:hover {
               background-color: #faa7ae;
@@ -238,6 +242,10 @@ background-color: #44b927;
               cursor: pointer;
               border: 2px solid #fff;
               color: rgb(125, 125, 247);
+
+              & > a {
+                text-decoration: none;
+              }
           }
           & > button:hover {
               background-color: #faa7ae;
