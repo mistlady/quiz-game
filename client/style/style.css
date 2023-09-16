@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#quiz-container{
+  background-image: url(../images/Purple_and_Pink_Playful_Yes_or_No_Game_Presentation_1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 700px;
+  overflow: hidden;
+  padding: 100px;
+}
+
+h1{
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h3{
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+p{
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btns{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.cssbtn{
+  background-color: #3e4188;
+  color: #fff;
+  width: 50px;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cssbtn:hover{
+background-color: #faa7ae;
+}
+.cssbtn:focus{
+outline: none;
+background-color: #44b927;
+}
+#cssbtn{
+  background-color: #3e4188;
+  color: #fff;
+  width: 50px;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#cssbtn:hover{
+background-color: #faa7ae;
+}
+#cssbtn:focus{
+outline: none;
+background-color: #44b927;
+}
+
+
+.card {
+  font-family: MyFont;
+  margin-left: 50px;
+  display: flex;
+  height: 500px;
+  width: 800px;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 40px;
+  position: relative;
+}
+.card img {
+  border-radius: 10px;
+}
+.card button{
+  position: absolute;
+  top: 75%;
+  background-color: #fff;
+  padding: 14px 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid #fff;
+  color: rgb(125, 125, 247);
+}
+
+.start:hover {
+  background-color: #faa7ae;
+  color: #fff;
+}
+
+
+#loser {
+
+  width: 600px;
+  height: 500px;
+  display: grid;
+  place-content: center;
+  background-image: url('../images/loser.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 50px;
+
+  & > div.content {
+      width: 300px;
+      height: 200px;
+      display: grid;
+      place-content: center;
+      margin-left: 140px;
+
+      & > div.text {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 300px;
+
+          & > h2 {
+              color: white;
+              background-color: rgb(89, 89, 182);
+              padding: 0px 25px;
+              border-top-left-radius: 7px;
+              
+          }
+      }
+
+      & > img {
+          width: 450px;
+      }
+
+      & > div.btns {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          & > button {
+              width: 50px;
+              margin-left: 20px;
+              background-color: #fff;
+              padding: 5px;
+              border-radius: 8px;
+              font-size: 15px;
+              font-weight: 700;
+              cursor: pointer;
+              border: 2px solid #fff;
+              color: rgb(125, 125, 247);
+          }
+          & > button:hover {
+              background-color: #faa7ae;
+              color: #fff;
+          }
+      }
+  }
+}
+
+
+#winner {
+
+  width: 600px;
+  height: 500px;
+  display: grid;
+  place-content: center;
+  background-image: url('../images/winner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 50px;
+
+  & > div.content {
+      width: 300px;
+      height: 200px;
+      display: grid;
+      place-content: center;
+      margin-left: 140px;
+
+      & > div.text {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 300px;
+
+          & > h2 {
+              color: white;
+              background-color: rgb(89, 89, 182);
+              padding: 0px 25px;
+              border-top-left-radius: 7px;
+              
+          }
+      }
+
+      & > img {
+          width: 300px;
+      }
+
+      & > div.btns {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          & > button {
+              width: 50px;
+              margin-left: 20px;
+              background-color: #fff;
+              padding: 5px;
+              border-radius: 8px;
+              font-size: 15px;
+              font-weight: 700;
+              cursor: pointer;
+              border: 2px solid #fff;
+              color: rgb(125, 125, 247);
+          }
+          & > button:hover {
+              background-color: #faa7ae;
+              color: #fff;
+          }
+      }
+  }
+}
